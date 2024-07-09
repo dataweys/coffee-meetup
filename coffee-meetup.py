@@ -5,7 +5,7 @@ import datetime
 from typing import Dict, List, Tuple, Optional
 
 # Read the input Excel file into a DataFrame
-file_path = "coffee_roulette_final.xlsx"
+file_path = "signees.xlsx"
 df = pd.read_excel(file_path)
 
 # Get the unique values from the 'GROUP' column in the DataFrame
